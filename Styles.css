@@ -16,7 +16,7 @@
 }
 td:hover{
     font-weight: bold;
-    color: rgb(10, 246, 246);
+    color: rgb(10, 245, 246);
     }
     
  
@@ -32,7 +32,15 @@ h1{
 h2{
     font-size: 275%;    
     padding: 10px 5px 20px 5px;
+    
+        animation:blinker 3.3s linear infinite;   
+
 }
+
+@keyframes blinker{
+    50%   
+     {opacity: 0;}
+     }
 
 table{
     border: 10px solid rgb(12, 10, 12);
@@ -68,6 +76,10 @@ padding: auto;
     
 }
 
-#gl, #dl{
+.bl{
  width: 45%;
+}
+
+#mi{
+    width: 55%;
 }
